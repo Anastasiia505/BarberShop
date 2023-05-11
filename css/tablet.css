@@ -1,0 +1,95 @@
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+	.section {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	.hero-container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.hero-content {
+		background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url("../images/hero-tablet.jpg");
+		height: 680px;
+	}
+	@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+		.hero-content {
+			background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)),
+				url("../images/hero-tablet-2x.jpg");
+		}
+	}
+	.about-container {
+		display: flex;
+		gap: 30px;
+	}
+
+	.about-list {
+		display: block;
+		width: 50%;
+	}
+	.about-content {
+		width: 50%;
+	}
+
+	.about-item:first-child {
+		margin-bottom: 30px;
+	}
+	.about-discription {
+		font-size: 18px;
+		line-height: calc(30 / 18);
+	}
+	.about-title {
+		width: 330px;
+	}
+
+	.price-section {
+		background-image: url(../images/price-tablet.png);
+		background-color: #111319;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.price-title {
+		font-size: 42px;
+		line-height: 49px;
+	}
+	.price-content {
+		font-size: 18px;
+		line-height: calc(30 / 18);
+	}
+	.benefits-content {
+		width: 500px;
+	}
+
+	.benefits-list {
+		width: 445px;
+	}
+	.benefits-wrap {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.benefits-item {
+		padding: 20px 44px;
+	}
+	.team-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.gallery-subtitle {
+		margin-bottom: 44px;
+	}
+	.gallery-item:not(:last-child) {
+		margin-bottom: 0px;
+	}
+	.gallery-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+	.gallery-item {
+		flex-basis: calc((100% - 30px) / 2);
+	}
+}
